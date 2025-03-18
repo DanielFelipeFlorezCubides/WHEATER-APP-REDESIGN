@@ -2,7 +2,7 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-    outline: 1px solid tomato;
+    /* outline: 1px solid tomato; */
 }
 
 body{
@@ -114,4 +114,119 @@ main{
     a:hover{
         background-color: rgba(224, 182, 255, 1);
     }
+}
+
+.wheater_detailed_info{
+    width: 380px;
+    height: 71px;
+    margin-top: 16px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.wind_speed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(208, 188, 255, 0.3);
+    padding: 10px;
+    border-radius: 12px;
+    width: 182px;
+    font-family: sans-serif;
+    position: relative;
+    gap: 7px;
+}
+
+.rain_chance{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(208, 188, 255, 0.3);
+    padding: 10px;
+    border-radius: 12px;
+    width: 182px;
+    font-family: sans-serif;
+    position: relative;
+    gap: 7px;
+}
+
+.img{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    width: 138px;
+    height: 48px;
+}
+
+.title{
+    width: 115px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.change{
+    height: 24px;
+    margin-top: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span{
+        font-size: 11px;
+    }
+}
+
+.arrow{
+    color: red;
+    font-size: 10px;
+    margin-right: 2px;
+}
+
+.arrow2{
+    color: rgba(138, 32, 213, 1);
+    font-size: 10px;
+    margin-right: 2px;
+}
+
+
+.wheater_detailed_info2{
+    width: 380px;
+    height: 71px;
+    margin-top: 12px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.pressure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(208, 188, 255, 0.3);
+    padding: 10px;
+    border-radius: 12px;
+    width: 182px;
+    font-family: sans-serif;
+    position: relative;
+    gap: 7px;
+}
+
+.uv_index{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(208, 188, 255, 0.3);
+    padding: 10px;
+    border-radius: 12px;
+    width: 182px;
+    font-family: sans-serif;
+    position: relative;
+    gap: 7px;
 }
